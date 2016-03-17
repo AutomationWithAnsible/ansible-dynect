@@ -34,7 +34,7 @@ dynect_hostname              : ""
     dynect_linkname       : "sub1.example.com" 
     dynect_hostname       : "192.168.1.25" 
   roles:
-    - yetu.dynect
+    - ansible-dynect
 - name         : Example dynect play CNAME record
   hosts        : all
   sudo         : yes
@@ -48,7 +48,7 @@ dynect_hostname              : ""
     dynect_linkname       : "sub2.example.com" 
     dynect_hostname       : "www.google.com" 
   roles:
-    - yetu.dynect
+    - ansible-dynect
 ```
 
 ## License
