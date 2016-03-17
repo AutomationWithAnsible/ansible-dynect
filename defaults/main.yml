@@ -1,0 +1,13 @@
+---
+
+dynect_cutomer_name          : ""
+dynect_username              : ""
+dynect_password              : ""
+# The zone
+dynect_domain                : ""
+# Supports A or CNAME
+dynect_rtype                 : "A"
+# Must be a FQDN 
+dynect_linkname              : ""
+# Could be an IP or a HOSTNAME
+dynect_hostname              : ""

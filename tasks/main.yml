@@ -1,0 +1,13 @@
+---
+
+- name : Ensure single record state
+  dynect:
+    customer_name="{{ dynect_cutomer_name }}"
+    username="{{ dynect_username }}"
+    password="{{ dynect_password }}"
+    domain="{{ dynect_domain }}"
+    rtype="{{ dynect_rtype }}"
+    state="{{ dynect_state | default('present')}}"
+    linkname="{{ dynect_linkname }}"
+    hostname="{{ dynect_hostname }}"
+  connection: local

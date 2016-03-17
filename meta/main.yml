@@ -1,0 +1,11 @@
+---
+galaxy_info:
+  author: "Adham Helal"
+  license: MIT
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+   - dns
+dependencies: []
